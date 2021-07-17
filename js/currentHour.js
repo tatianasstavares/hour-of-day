@@ -1,8 +1,8 @@
-export const showCurrentHour = (currentHourH2) => {
+export const showCurrentHour = (getCurrentHour) => {
     const date = new Date;
     const hour = date.getHours();
-    const minutes = date.getMinutes();
-    const seconds = date.getSeconds();
-    const currentHour = `Agora são ${hour}: ${minutes}: ${seconds}`
-    currentHourH2.textContent = currentHour;
+    // const minutes = date.getMinutes();
+    // const seconds = date.getSeconds();
+    const currentHourMinutes = `Agora são ${hour}h`
+    getCurrentHour.textContent = currentHourMinutes;
 }
