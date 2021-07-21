@@ -3,7 +3,7 @@ import {showCurrentImg} from './currentImg.js'
 
 
 const currentHourP = document.querySelector('.show-hour');
-const currentImg = document.querySelector('img');
 
-showCurrentHour(currentHourP)
-showCurrentImg(currentImg)
+const currentHour = showCurrentHour(currentHourP)
+
+showCurrentImg(currentHour)
